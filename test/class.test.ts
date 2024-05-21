@@ -1,13 +1,18 @@
-describe('class', function() { 
-    it('class', function() { 
-        class Customer {
-
+describe('class', function () {
+    class Customer {
+        constructor() {
+            console.info("create new customer");
         }
-        class Order {
+    }
+    class Order {
 
-        }
-
-        const customer : Customer = new Customer();
+    }
+    it('class', function () {
+        const customer: Customer = new Customer();
         const order = new Order();
     });
- })
+    it('constructor', function () {
+        new Customer();
+        new Customer();
+    });
+})
