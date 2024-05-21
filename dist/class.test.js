@@ -7,11 +7,11 @@ describe('class', function () {
     }
     class Order {
     }
-    it('class', function () {
+    it('should class', function () {
         const customer = new Customer();
         const order = new Order();
     });
-    it('constructor', function () {
+    it('should constructor', function () {
         new Customer();
         new Customer();
     });
